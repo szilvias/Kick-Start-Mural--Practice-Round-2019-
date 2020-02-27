@@ -5,7 +5,7 @@ I first calculated the sum of the first n/2 elements in the array with even leng
 Then push it back one element at a time, choose the largest sum as the final results.
 
 
-```
+```java
 import java.util.Scanner;
 
 public class Solution{
