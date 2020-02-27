@@ -1,6 +1,10 @@
 # Kick Start Problem: Mural (Practice Round 2019)
 Click here to check the problem <https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89>
 
+I first calculated the sum of the first n/2 elements in the array with even length (or the frist (n+1)/2 elements in the array with odd length).
+Then push it back one element at a time, choose the largest sum as the final results.
+
+
 ```
 import java.util.Scanner;
 
