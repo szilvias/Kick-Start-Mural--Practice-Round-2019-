@@ -24,7 +24,7 @@ public class Solution{
             int ergebnis = temp;                        
             for(int j =0 ; j<(N+1)/2; j++){
                 if((N+1)/2+j < N){
-                temp = temp - Character.getNumericValue(digitss[j]) + Character.getNumericValue(digitss[(N+1)/2+j]);}
+                temp = temp - Character.getNumericValue(digitss[j]) + Character.getNumericValue(digitss[(N+1)/2+j]);
                 ergebnis = Math.max(ergebnis, temp);            
             }
             System.out.println("Case #"+ ks + ": " + ergebnis);
